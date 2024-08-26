@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-// @ts-ignore
-import { Text, View, Button } from 'react-native';
+import { Text, View, Button, SafeAreaView } from 'react-native';
 import { useAppDispatch, useAppSelector } from '../../redux/hook';
 import { listCategory } from '../../redux/slices/category.slice';
 
@@ -17,13 +16,16 @@ const HomeScreen = () => {
 
     return (
         <View>
-            <Text> abcd</Text>
-            <Button
-                title="Increase"
-                color="red"
-            />
-        </View >
+            <Text> Hello world</Text>
+            <Text> Hello world</Text>
+            <Text> Hello world</Text>
+            <Text> Hello world</Text>
+            <Text> Hello world</Text>
+            <Text> Hello world</Text>
+        </View>
     )
 }
 
 export default HomeScreen;
+
+
